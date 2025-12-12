@@ -1,5 +1,5 @@
 # CampusDoc Tutor
-<img width="1919" height="940" alt="image" src="https://github.com/user-attachments/assets/5597070a-2bfb-4adf-b8a9-036cd17c76be" />
+<img width="1896" height="932" alt="image" src="https://github.com/user-attachments/assets/c311c5e8-be59-4a53-ba51-f0cff4a3e22c" />
 
 ## 1. 개요 및 목적 (Overview & Purpose)
 **CampusDoc Tutor**는 RAG(Retrieval-Augmented Generation) 기술을 기반으로 한 지능형 문서 튜터 시스템입니다.
