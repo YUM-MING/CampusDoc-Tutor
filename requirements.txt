@@ -12,3 +12,4 @@ pypdf
 pydantic-settings
 pytest
 httpx
+langchain-chroma

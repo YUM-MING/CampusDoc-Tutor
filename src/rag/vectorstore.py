@@ -1,4 +1,4 @@
-from langchain_community.vectorstores import Chroma
+from langchain_chroma import Chroma
 from src.core.config import settings
 from src.rag.embeddings import get_embeddings
 from langchain_core.documents import Document

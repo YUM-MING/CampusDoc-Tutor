@@ -1,0 +1,13 @@
+sanitize_input 입력으로  들어온  코드  문
+자열을  실행하기  전에  정
+제할지  여부를  결정합니
+다 .
+True
+python_repl 도구  내부에서  실제로  코
+드를  실행하는  
+PythonREPL 인스턴스입
+니다 .
+전역  범위에서  실행되는  
+기본  인스턴스
+25. 12. 4. 오후  11:13 Evernote
+https://lite.evernote.com/note/b3ae64d1-e762-e7f9-8d04-4caba00485

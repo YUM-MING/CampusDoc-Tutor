@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusDoc Tutor</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Sidebar: File Manager -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>Knowledge Base</h2>
+                <p>Upload PDF documents to tutor.</p>
+            </div>
+
+            <div class="upload-section">
+                <input type="file" id="pdf-upload" accept=".pdf" hidden>
+                <label for="pdf-upload" class="upload-btn">
+                    <span class="icon">📄</span> Upload PDF
+                </label>
+            </div>
+
+            <div class="file-list-container">
+                <div class="file-list-header">
+                    <h3>Uploaded Files</h3>
+                    <button id="reset-btn" class="text-btn" title="Clear all files">Clear All</button>
+                </div>
+                <ul id="file-list">
+                    <!-- Files will be populated here -->
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Main Chat Area -->
+        <main class="chat-area">
+            <div class="chat-header">
+                <h1>CampusDoc Tutor</h1>
+            </div>
+
+            <div id="chat-history" class="chat-history">
+                <div class="message ai">
+                    <div class="bubble">
+                        안녕하세요! 문서에 대해 궁금한 점을 물어보세요.
+                    </div>
+                </div>
+            </div>
+
+            <div class="chat-input-container">
+                <div class="input-wrapper">
+                    <input type="text" id="user-input" placeholder="질문을 입력하세요..." autocomplete="off">
+                    <button id="send-btn">➤</button>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="/script.js"></script>
+</body>
+
+</html>
